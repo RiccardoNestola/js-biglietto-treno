@@ -28,14 +28,12 @@
 
 
         if (yearNumber < 18) {
-            priceTicket - discount20;
             console.log(priceTicket - discount20 + " Under 18");
             document.getElementById("output").innerHTML = "Il prezzo del biglietto è di " + (priceTicket.toFixed(2) - discount20 + "€");
             
 
             
         } else if (yearNumber >= 65){
-            priceTicket - discount40;
             console.log(priceTicket - discount40 + " over 65");
             document.getElementById("output").innerHTML = "Il prezzo del biglietto è di " + (priceTicket.toFixed(2) - discount40 + "€");
 
